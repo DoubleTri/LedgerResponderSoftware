@@ -1,0 +1,53 @@
+TO DO.... 
+
+    DONE!! remove required astricks
+    DONE!! navagation 
+    DONE!! Table Heights
+    DONE!! create home page
+    DONE!! fix members and pastMembers in reports
+    DONE!! consistant page headings
+    DONE!! change message to notification  
+    DONE!! style all (reports)
+    DONE!! add admin cert view
+    DONE!! fix report PDFs 
+    DONE!! add trt team to group email
+    DONE!! upload file size limit (SOPs and Manuals)
+    DONE!! attachments to group email
+    DONE!! disable edit of reportRoster in teamRoster component
+    DONE!! delete pdfs
+    DONE!! add spinner to user profile and reports photo upload
+    DONE!! remove login from menu
+    DONE!! add event listener to SOP and equipmentPDF for resizing screen
+    DONE!! fix chris lessenden's title on tables
+    DONE!! form vaidation, espacally for times
+    DONE!! figure out cnx enrout situation 
+    DONE!! limit charters on forms
+    DONE!! more design on PDFs
+    DONE!! fix Complete btn (routing pushing oute that currently active in reports, not past reports)
+    DONE!! fix members and pastMembers in reports
+    DONE!! change message to notification 
+    DONE!! table height screen size
+    DONE!! table headings and btn position
+    DONE!! table height screen size
+    DONE!! add 'chief to checkbox
+
+    - fix roster edit (members needs to change when modal is opened)
+    - admin add and delete members
+    - figure out whats going on with Internet Explorer
+    
+    - database and storage security settings 
+    - fix DRY situations in file uploads (the time out stuff.  use syncroness calls)
+    - make departments a dropdown in userProfile
+    - icons and titles for ipone and tabs
+    - add trt and h2o to editUserProfile
+    - inconsistancy with 'currently out' title on equipmentSignOut
+    - clean up teamRoster modal (it's a mess of ? :) 
+    - clear roster checkboxes after submit, move to top of screen
+    (?) add chiefs to whole team email group
+    - fix NaN issue in teamActivity
+    - add all SOPs
+REPORTS
+    - fix Example folder
+    - seperate out Report and CostRecovery
+    - photo description in reportsPhotos needs to be limitied
+      

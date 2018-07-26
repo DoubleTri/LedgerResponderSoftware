@@ -1,0 +1,34 @@
+{
+  "name": "ledger-trt",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.5.3",
+    "base64-img": "^1.0.4",
+    "dateformat": "^3.0.3",
+    "firebase": "^5.0.1",
+    "fullcalendar-reactwrapper": "^1.0.7",
+    "jspdf": "^1.4.1",
+    "lodash.filter": "^4.6.0",
+    "node-sass-chokidar": "^1.3.0",
+    "react": "^16.3.2",
+    "react-autocomplete": "^1.8.1",
+    "react-dom": "^16.3.2",
+    "react-files": "^2.4.6",
+    "react-pdf": "^3.0.5",
+    "react-quill": "^1.2.7",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-stepzilla": "^4.7.2",
+    "react-transition-group": "^2.4.0"
+  },
+  "scripts": {
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
