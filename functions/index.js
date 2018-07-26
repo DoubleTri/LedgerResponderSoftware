@@ -23,8 +23,8 @@ exports.helloworld = functions.https.onCall((data, context) => {
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-          user: 'doubletriangle880@gmail.com', // generated ethereal user
-          pass: 'engine72'  // generated ethereal password
+          user: '***', // generated ethereal user
+          pass: '***'  // generated ethereal password
       },
       tls:{
         rejectUnauthorized: false
@@ -46,7 +46,7 @@ exports.helloworld = functions.https.onCall((data, context) => {
     }
     :
     {
-      from: '"WCTRT.org" <doubletriangle880@gmail.com>', // sender address
+      from: '"WCTRT.org" <***>', // sender address
       to: data.group, // list of receivers
       replyTo: data.sender,
       subject: data.subject,
