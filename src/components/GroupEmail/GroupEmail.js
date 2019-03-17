@@ -31,7 +31,7 @@ class GroupEmailForm extends Component {
     database.ref('users').on('value', function (snap) {
       team = []
       snap.forEach(function (item) {
-        if (item.child('visable').val() !== "No") {
+        if (item.child('visable').val() !== "No" && item.child('lastName').val()) {
           team.push(item.val())
         }
       })

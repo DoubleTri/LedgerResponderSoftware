@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Table, Modal, Button, Col, Tooltip, Icon } from 'antd';
 
 import * as firebase from 'firebase';
+import ColumnGroup from 'antd/lib/table/ColumnGroup';
 
 var database = firebase.database();
 
@@ -19,10 +20,11 @@ class TeamMembers extends Component {
     var team = []
     database.ref('users').once('value', function (snap) {
       snap.forEach(function (item) {
-        if (item.child('visable').val() !== "No"){
+        if (item.child('visable').val() !== "No" && item.child('lastName').val()){
           team.push(item.val())
         }
       })
+      console.log(team)
       this.setState({ team: team.sort((a, b) => a.lastName.localeCompare(b.lastName)) })
     }.bind(this));
   }

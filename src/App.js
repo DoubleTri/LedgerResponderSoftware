@@ -35,9 +35,9 @@ import CreateBusiness from './components/Business/CreateBusiness';
 import BusinessPage from './components/Business/BusinessPage';
 import Business from './components/Business/Business';
 
-import './Apps.css';
+//import './Apps.css';
 import './styles/fullcalendar.min.css'
-import './antd.css';
+//import './antd.css';
 
 import { Button, notification } from 'antd';
 
